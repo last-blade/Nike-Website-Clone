@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike. Just Do It. Nike SG</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="shortcut icon" href="/Images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@700&family=Martian+Mono:wght@200&family=Nunito+Sans:opsz,wght@6..12,300&family=Pacifico&family=Roboto:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+
+    <style>
+        @media(max-width:960px){
+            .nav1{
+                display: none;
+            }
+        }
+
+        @media(max-width:400px){
+            .Shoes-Carousel{
+                padding: 20px;
+            }
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+
+    <div class="wrapper w-full overflow-x-hidden relative">
+
+
+
+        <!-- ----------------------------------------------------------------------------------------------------------------- -->
+
+
+            <!-- Navigation Bar-1 -->
+        <nav class="flex justify-between p-[6px] bg-[#F5F5F5] items-center nav1">
+            <img src="/Images/air-jordan-jumpman-Logo.png" height="24px" width="24px" class="ml-10">
+            <div class="text-[13px] mr-14 space-x-2">
+                <span>Find a Store</span>
+                <span>|</span>
+                <span>Help</span>
+                <span>|</span>
+                <span>Join Us</span>
+                <span>|</span>
+                <span>Sign In</span>
+            </div>
+        </nav>
+
+        <!-- ----------------------------------------------------------------------------------------------------------------- -->
+
+
+        <!-- Navigation Bar-2 -->
+        <nav class="flex justify-between items-center p-2">
+            <img src="/Images/Nike-Icon.png"  class="ml-7 h-12 w-16" >
+            <!-- Nav-links -->
+            <div class="space-x-4 font-Helvetica ml-64 flex items-center">
+                <span class="hidden lg:block">New & Featured</span>
+                <span class="hidden md:block">Men</span>
+                <span class="hidden md:block">Women</span>
+                <span class="hidden lg:block">Kids</span>
+                <span class="hidden md:block">Sale</span>
+                <span class="hidden xl:block">SNKRS</span>
+            </div>
+                <!-- Search bar and cart icons -->
+            <div class="flex 432px:space-x-4 432px:mr-11 items-center relative right-5 gap-5 200px:right-8 ">
+                <img class="h-6 w-6 relative right-8 md:left-16 432px:left-14 cursor-pointer" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAmBJREFUSEvl1kuoT1EUx/HPzTMDAxPvRyKPRBkYYCCFhIm8SiGv0E1JRCZGDJBHEeUdKTJgIEwYUSYoyqtIXokUyvvR0v7r+Lv/c87913UH1ux01l7fvdbe67d2g1ayhlbiKgtuj1EYiG54jge4hs/1bL4I3BdbMRUdmwB8wBmswZPmbCAPvALbEdkW2Scsw+Eix8r/WuDIcnVy+oq9uIS7eIj+GIzxWIo2yXcDNpWBNwVejj1pcZzjFNzLCTYc59Az+czGySJ4NXgIbqJdym4sXhUFQS9cQW+8xyA8y1tXDb6AiemmxuJHJaAVlxG4zq9OOYr5ZcFd8Do578CqZkArricwB28R8b7VipHNeAZOJcfRuFoHeGbmfHNjZMErsTPBOuNdHeB+6dbH0gU4Uibj9ZlWaJtXppwNdcDH9H8ttpQBRz/uS47d8aKOjHvgaVo3K3N0f4XKlnoCLiaPyThfB3gazqZ1w3C7TMad8CZJ5H4sqQN8DHPxI2l7zQFS3cenMR3fMTSJSFl+9PGN5HwAi8v2cfiFBkd5YhKFXI7ByxLkPkm5QjZDC2J8RvVqWlNavQhR6rDHmIQ7OTFGJq3umnx2o7Fos7Wm02asS4tjOsXQuJyZTiGncRTjUkmr48TmDzY344p/TKldiJ4usi/pQRDqV7FceNELJM58G6K9QhyqLbT4EDam/l2IuFiF8CJwJUBA4801IL25Ymrdx62MUlV8q+HxHZv7w8qCi0pd/T9gcUEjfrTmPBzPOrUUOBhZeNzyuO2/rSXBAQn1i56OgfFPSl14NC2dcc0N/H/gn1afbR89JErzAAAAAElFTkSuQmCC"/>
+                <input type="text" class="bg-[#F5F5F5] rounded-full w-44 p-2 text-center outline-none border-none hidden md:block" placeholder="Search">
+                <img class="h-6 w-6 hidden md:block relative lg:left-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAmxJREFUSEvN1knITWEYwPHfZyoZUmxkgSQKyYKNBRGZSaKEhWHHgg2yVWSjZMnGkKEQMpQxGykLQwkprGRhKBbG6Pl6Pp2Oe+797v1u8dSte97zvs//md/T4R9Jxz/i+q/BvTEOffAYvyqi1AsT8QPP8LNeNOt5PB+7MQl9U8lX3MMO3M216diLaeiXa9/xEDtxvZYBtcABCUXbGuR/fxq0ucG+fdiVkfiztRb4OFbnjg84jEv5vBAbMaQEe44w5GmuT8BWjMnno1hXPFMGr0FsCrmBRfhSgvTHZczM9WtYUmPfgDR4Ru5bhdNduorgKKLXGIGPGI+3FWEcmJGI1xvwuWLf8Cy0QXiBsbXAs9LLeBf5jdC1Q7ZnzYSuqbgff4oeb8GBJE3Go3ZQs9qjE0LW4lgZHC2yJzcMw7s2gUfiVerahENl8PpC3uYiiqYdshxnUlEUa2eHFEM9Ci8LlRrwdsit7IAYKkPxqQyO53NYlrTo5RM9JEdOj6SOg4g66pRyH4/GAwxGWBj9ebVFeIzcCznj3+Qcf18FjvXZuJLjsFX4PFxMaFwaofNO0YGqSyIOns+h/w1Lm/B8ThZQzPwwPMbsX4Va73YqWh3wCN3NBmEvQuMmW1zVHY0+BCLH0QpxF8fMDuur4GVoGH67ytBG4DjXHXhT0FpVXWVgwM8iLpKy501DmwHH3hU4WYKHITGJopAip3XD252qrvJ8ZQ6V+L4KzyP38YviW1C43Rq2fndyXFYSnp9CwEOa8rTeAGloLeJLJUZhV5vFPG5KWvG4CzAlvX3SFLFiVreio6UzPfG4JWBPc9wjaBz+DfUffB+fR0YAAAAAAElFTkSuQmCC"/>
+                <img class="h-6 w-6 relative right-8 432px:left-8 lg:right-4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAf9JREFUSEvN1jvozXEYx/HXXwaXSIlkIhlksUhkYZBBBpeFTbmWwaAYRMplMEj/EikTE6NJGEQpBiUMLuUSxSAyuISef99f/fo5/3O+33NxPHWG8zvP93l/n89z+Z0RQ7KRIXH9F+B5iE/YFzwYpBr1jI/gcA32DGvxfBAXaAcO3kMsGTS4LvUG7E3AlbjTb/h4zTUT7zERl7H1X4GDcwlb8B3r8a1H+Cu8qGK0G6eQ+HaPsObxTbgaDzvN8SMs7iN8Gy7mgHfgXAIfx/UuLnEMK/ATs/ApBzwF7zA9QdcUgqfiIybhCjbn1LjyOZNG6zcWFi6UumLrcK0EvACxxcJOY19B1nexHB8wB79KwOF7A6vxGbMzR2t+bXxOYX/9wp26uvLdmGoU37fjQkbW0YwHk98iPO0GPAFvk1yPM0YsEnqDubiPpc2L5mYc5w7haAoQ8/iyTdYx+6Pp9z042ws4muN12t8ZSo+5/Eg9MTa73UhdnTmfapwLjuWzq5VzidRxPmod9ZqcQf6a6hvz/5eVgiNALIUZqW7xF6lp07A7rcZQqKWVgk/gQIp0K812M/BNrEoPT9ZGqqca14OGhCF902I7VQmNd7mOr8Vm0PruDRl3tgBHQ4VfWPzeUu5SqSNYbKF4W91r02DL0np90q8aZzRznks3GedF7uA1NPAf35lTH+7QWpkAAAAASUVORK5CYII="/>
+            </div>
+        </nav>
+
+
+
+        <!-- ----------------------------------------------------------------------------------------------------------------- -->
+
+
+
+        <!-- Navigation Bar-3 -->
+        <nav class="flex flex-col p-2 items-center bg-[#F5F5F5]">
+            <!-- Nav-links -->
+            <span class="font-Helvetica mx-auto">Free Standard Delivery & 30-Day Free Returns</span>
+            <a href="#" class="font-Helvetica text-xs text-black underline">Join Now View Details</a>
+        </nav>
+
+
+        <!-- ----------------------------------------------------------------------------------------------------------------- -->
+
+
+        <!-- Page-1 -->
+        <section class="relative p-10 bottom-10">
+            <div class="mx-auto 1550px:min-w-[1425px] ">
+                <img src="/Images/Page-1.webp" class="600px:block hidden">
+                <img src="/Images/page-1 mobile.jpg" class="600px:hidden ">
+                <div class=" mt-5 flex flex-col md:justify-center p-5 justify-start">
+                    <p class="md:mx-auto">Nike Infinity RN 4</p>
+                    <h1 class="md:text-6xl font-extrabold md:mx-auto tracking-tighter text-5xl">NO GENRES.</h1>
+                    <h1 class="md:mx-auto md:text-6xl font-extrabold tracking-tighter text-5xl">ALL SOUL.</h1>
+                    <div class="flex flex-col justify-center mt-5">
+                        <p class="hidden md:block mx-auto">The all-new ReactX foam provides a smooth and highly cushioned,yet</p>
+                        <p class="hidden md:block mx-auto">reassuringly supportive feeling, underfoot.</p>
+                    </div>
+                    <button class="font-Helvetica md:mt-8 bg-black text-white h-9 w-20 md:mx-auto rounded-full">Shop</button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- ----------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+        <!-- Navigation-Bar-4 (Trend Alert)-->
+        <div class="1550px:min-w-[1425px] 200px:px-10 mx-auto flex justify-between items-center">
+            <h2 class="font-Helvetica text-2xl">Trend Alert</h2>
+            <div class="space-x-3 items-center hidden 600px:block">
+                <a href="#" class="font-Helvetica">Shop</a>
+                <button class="bg-[#F5F5F5] p-3 rounded-full"><img src="/Images/left-chevron.png" class="h-6 w-6 opacity-20"></button>
+                <button class="bg-[#dedbdb] p-3 rounded-full hover:bg-[#c6c3c3] rotate-180"><img src="/Images/left-chevron.png" class="h-6 w-6"></button>
+            </div>
+        </div>
+        <!-- Shoes-Carousel -->
+        <div class="Shoes-Carousel 1550px:min-w-[1425px] 600px:grid-cols-2 200px:px-10 mx-auto grid grid-cols-1 md:grid-cols-3 md:grid-rows-1 font-Helvetica gap-x-3 mt-5">
+            <!-- Card-1 -->
+            <div class="cursor-pointer">
+                <img src="/Images/Nike Air Force 1 '07 Men.png" loading="lazy">
+                <div class="mt-3 flex justify-between">
+                    <div>
+                        <p>Nike Air Force 1 '07</p>
+                        <p class="text-[#757575]">Men's Shoes</p>
+                    </div>
+                    <span class="mr-4">S$165</span>
+                </div>
+            </div>
+            <!-- Card-2 -->
+            <div class="cursor-pointer">
+                <img src="/Images/Nike Air Force 1 '07 Women.png" loading="lazy">
+                <div class="mt-3 flex justify-between">
+                    <div>
+                        <p>Nike Air Force 1 '07</p>
+                        <p class="text-[#757575]">Women's Shoes</p>
+                    </div>
+                    <span class="mr-4">S$165</span>
+                </div>
+            </div>
+            <!-- Card-3 -->
+            <div class="cursor-pointer">
+                <img src="/Images/Nike Gamma Force.png" loading="lazy">
+                <div class="mt-3 flex justify-between">
+                    <div>
+                        <p>Nike Gamma Force</p>
+                        <p class="text-[#757575]">Women's Shoes</p>
+                    </div>
+                    <span class="mr-4">S$145</span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- ----------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+        <!-- Page-2 (Trending) -->
+        <div class="1550px:min-w-[1425px] 200px:px-10 mx-auto flex justify-between items-center mt-28">
+            <h2 class="font-Helvetica text-2xl">Trending</h2>
+        </div>
+        <!-- Page-2 Cards -->
+        <div class="1550px:min-w-[1425px] 200px:px-10 mx-auto grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-1 font-Helvetica lg:gap-x-3 gap-y-3 mt-7 text-white">
+            <!-- Card-1 -->
+            <div class="relative">
+                <img src="/Images/page-2 image-01.png" loading="lazy">
+                <div class="absolute 600px:bottom-12 left-12 bottom-3 ">
+                    <div class="lg:mb-7">
+                        <p class="hidden 768px:block">Running Apparel</p>
+                        <p class="600px:text-xl text-lg font-bold 600px:font-normal">Support from Head to Toe</p>
+                    </div>
+                    <button class="h-10 w-20 bg-white rounded-full text-black">Shop</button>
+                </div>
+            </div>
+            <!-- Card-2 -->
+            <div class="relative">
+                <img src="/Images/page-2 image-02.png" loading="lazy">
+                <div class="absolute 600px:bottom-12 left-12 bottom-3">
+                    <div class="lg:mb-7">
+                        <p class="600px:text-xl text-lg font-bold 600px:font-normal">Lifestyle Footwear</p> 
+                    </div>
+                    <button class="h-10 w-20 bg-white rounded-full text-black">Shop</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- ----------------------------------------------------------------------------------------------------------------- -->
+
+
+
+        <!-- Page-3 Video -->
+        <div class="1550px:min-w-[1425px] 200px:px-10 mx-auto flex justify-between items-center mt-28">
+            <h2 class="font-Helvetica text-2xl">Just In</h2>
+        </div>
+        <div class="1550px:min-w-[1425px] 200px:px-10 mx-auto mt-7 lg:block hidden">
+            <video aria-readonly="true" loop autoplay>
+                <source src="/Images/Nike. Just Do It. Nike IN - Google Chrome 2023-08-19 15-48-08.mp4" type="video/webm" />
+        </div>
+        <div class="1550px:min-w-[1425px] 200px:px-10 mx-auto mt-7 lg:hidden block">
+            <img src="/Images/jordan-luka-mobile.jpg" alt="">
+        </div>
+        <div class="1550px:min-w-[1425px] 200px:px-10 mx-auto font-Helvetica">
+            <div class=" mt-5 flex flex-col justify-center p-5">
+                <p class="mx-auto">Luka 2</p>
+                <h1 class="text-6xl font-extrabold mx-auto tracking-tighter font-HelveticaAlternate">'NEBULA'</h1>
+                <!-- <h1 class="mx-auto text-6xl font-extrabold tracking-tighter">AROUND YOU</h1> -->
+                <div class="flex flex-col justify-center mt-5">
+                    <p class="mx-auto hidden 646px:block">Go galactic and defy reality. Designed to remember its interstellar</p>
+                    <p class="mx-auto hidden 646px:block">namesake, the 'Nebula' colourway swirls like a cloud of cosmic dust. Strap</p>
+                    <p class="mx-auto hidden 646px:block">in, blast-off is imminent</p>
+                </div>
+                <button class="font-Helvetica mt-8 bg-black text-white h-9 w-20 mx-auto rounded-full">Shop</button>
+            </div>
+        </div>
+
+
+        <!-- ----------------------------------------------------------------------------------------------------------------- -->
+
+
+        <!-- Bootomwear-Leggings Carousel (Featured) -->
+        <div class="1550px:min-w-[1425px] 200px:px-10 mx-auto flex justify-between items-center mt-24">
+            <h2 class="font-Helvetica text-2xl">Featured</h2>
+        </div>
+        <!-- Leggings-Carousel -->
+        <div class="1550px:min-w-[1425px] 200px:px-10 mx-auto grid lg:grid-cols-3 grid-rows-1 font-Helvetica gap-x-3 mt-5">
+            <!-- Card-1 -->
+            <div class="cursor-pointer">
+                <img src="/Images/zenvy.webp" loading="lazy">
+                <div class="lg:mt-3 flex flex-col lg:space-y-6 mb-8 gap-4">
+                    <div class="mt-9 text-lg">
+                        <p>Zenvy Leggings</p>
+                    </div>
+                    <ul>
+                        <li>• Gentle Support</li>
+                        <li>• Lightweight InfinaSoft fabric for softness</li>
+                        <li>• Opaque coverage that aces the squat test</li>
+                        <li>• Minimal seams for distraction-free workouts</li>
+                    </ul>
+                    <button class="font-Helvetica lg:mt-8 bg-black text-white h-9 w-20 rounded-full">Shop</button>
+                </div>
+            </div>
+            <!-- Card-2 -->
+            <div class="cursor-pointer">
+                <img src="/Images/Go legging (2).jpg" loading="lazy">
+                <div class="lg:mt-3 flex flex-col lg:space-y-6 mb-8 gap-4">
+                    <div class="mt-9 text-lg">
+                        <p>Go Leggings</p>
+                    </div>
+                    <ul>
+                        <li>• Firm Support</li>
+                        <li>• InfinaLock fabric for comfy compression</li>
+                        <li>• No-fuss drawcord</li>
+                        <li>• 6 pockets for all your things</li>
+                    </ul>
+                    <button class="font-Helvetica lg:mt-8 bg-black text-white h-9 w-20 rounded-full">Shop</button>
+                </div>
+            </div>
+            <!-- Card-3 -->
+            <div class="cursor-pointer">
+                <img src="/Images/Universa Legging (3).jpg" loading="lazy">
+                <div class="lg:mt-3 flex flex-col lg:space-y-6 mb-8 gap-4">
+                    <div class="mt-9 text-lg">
+                        <p>Universa Leggings</p>
+                    </div>
+                    <ul>
+                        <li>• Medium Support</li>
+                        <li>• InfinaSmooth fabric for an all over smooth</li>
+                        <li>• Extra-wide waistband</li>
+                        <li>• Side pockets for your essentials</li>
+                    </ul>
+                    <button class="font-Helvetica lg:mt-8 bg-black text-white h-9 w-20 rounded-full">Shop</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- ----------------------------------------------------------------------------------------------------------------- -->
+
+
+
+        <!-- Page-4 Red shoes wala section (The Latest) -->
+        <div class="1550px:min-w-[1425px] 200px:px-10 mx-auto flex justify-between items-center mt-24">
+            <h2 class="font-Helvetica text-2xl">The Latest</h2>
+        </div>
+        <!-- Red shoes image below -->
+        <div class="1550px:min-w-[1425px] 200px:px-10 mx-auto font-Helvetica  mt-5">
+            
+            <div class="cursor-pointer">
+                <img src="/Images/Latest red shoes section.jpg" loading="lazy" class="lg:block hidden">
+                <img src="/Images/Red shoes for mobile.jpg" alt="" class="lg:hidden block">
+                <div class=" mt-5 flex flex-col justify-center p-5">
+                    <p class="mx-auto">Just In</p>
+                    <h1 class="text-6xl font-extrabold mx-auto tracking-tighter font-HelveticaAlternate">NIKE READY PACK</h1>
+                    <!-- <h1 class="mx-auto text-6xl font-extrabold tracking-tighter">AROUND YOU</h1> -->
+                    <div class="flex flex-col justify-center mt-5">
+                        <p class="mx-auto">The season is here. Start yours prepared with the best in touch, agility, precision and speed. </p>
+                    </div>
+                    <button class="font-Helvetica mt-8 bg-black text-white h-9 w-24 mx-auto rounded-full">Shop All</button>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- ----------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+        <!-- Page-5 (The Latest) -->
+        <div class="1550px:min-w-[1425px] 200px:px-10 mx-auto flex justify-between items-center mt-24">
+            <h2 class="font-Helvetica text-2xl">Don't Miss</h2>
+        </div>
+        <!-- Gym Image -->
+        <div class="1550px:min-w-[1425px] 200px:px-10 mx-auto font-Helvetica mt-5">
+            
+            <div class="cursor-pointer relative">
+                <img src="/Images/Page-5.jpg" loading="lazy" class="w-[100%]">
+                <div class="absolute 768px:bottom-12 text-white left-12 bottom-6">
+                    <p class="">Nike Metcon 9</p>
+                    <h1 class="768px:text-6xl font-extrabold tracking-tighter text-3xl">LOCK IN YOUR LIFTS</h1>
+                    <button class="font-Helvetica mt-8 bg-white text-black h-10 w-20 mx-auto rounded-full hover:bg-[#757575]">Shop</button>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- ----------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+        <!-- Page-6 (Essentials) -->
+        <div class="1550px:min-w-[1425px] 200px:px-10 mx-auto flex justify-between items-center mt-24">
+            <h2 class="font-Helvetica text-2xl">Essentials</h2>
+        </div>
+        <!-- 3 Cards below: -->
+        <div class="1550px:min-w-[1425px] 200px:px-10 mx-auto grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-1 font-Helvetica lg:gap-x-3 gap-y-3 mt-5">
+            <!-- Card-1 -->
+            <div class="cursor-pointer relative">
+                <img src="/Images/Essentials men's.webp" loading="lazy">
+                <div class=" flex flex-col space-y-8 absolute bottom-12 left-12">
+                    <button class="font-Helvetica mt-8 bg-white text-black h-9 w-20 rounded-full hover:bg-[#B2B2B2]">Men's</button>
+                </div>
+            </div>
+            <!-- Card-2 -->
+            <div class="cursor-pointer relative">
+                <img src="/Images/Essentials women.webp" loading="lazy">
+                <div class=" flex flex-col space-y-8 absolute bottom-12 left-12">
+                    <button class="font-Helvetica mt-8 bg-white text-black h-9 w-28 rounded-full hover:bg-[#B2B2B2]">Women's</button>
+                </div>
+            </div>
+            <!-- Card-3 -->
+            <div class="cursor-pointer relative">
+                <img src="/Images/Essentials-Kids.webp" loading="lazy">
+                <div class=" flex flex-col space-y-8 absolute bottom-12 left-12">
+                    <button class="font-Helvetica mt-8 bg-white text-black h-9 w-20 rounded-full hover:bg-[#B2B2B2]">Kid's</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- ----------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+        <!-- Before footer (shortcuts) -->
+        <div class="1550px:min-w-[1425px] 200px:px-10 grid grid-cols-4 font-Helvetica mt-20 ">
+            <!-- Column1 (Icons) -->
+            <div class="space-y-7 hidden 768px:block">
+                <p>Icons</p>
+                <ul class="space-y-5 text-[#757575]">
+                    <li class="cursor-pointer hover:text-black">Air Force 1</li>
+                    <li class="cursor-pointer hover:text-black">Huarache</li>
+                    <li class="cursor-pointer hover:text-black">Air Max 90</li>
+                    <li class="cursor-pointer hover:text-black">Air Max 95</li>
+                </ul>
+            </div>
+
+            <div class="space-y-7 hidden 768px:block">
+                <p>Shoes</p>
+                <ul class="space-y-5 text-[#757575]">
+                    <li class="cursor-pointer hover:text-black">All Shoes</li>
+                    <li class="cursor-pointer hover:text-black">Custom Shoes</li>
+                    <li class="cursor-pointer hover:text-black">Jordan Shoes</li>
+                    <li class="cursor-pointer hover:text-black">Running Shoes</li>
+                </ul>
+            </div>
+
+            <div class="space-y-7 hidden 768px:block">
+                <p>Clothing</p>
+                <ul class="space-y-5 text-[#757575]">
+                    <li class="cursor-pointer hover:text-black">All Clothing</li>
+                    <li class="cursor-pointer hover:text-black">Modest Wear</li>
+                    <li class="cursor-pointer hover:text-black">Hoodies & Pullovers</li>
+                    <li class="cursor-pointer hover:text-black">Shirts & Tops</li>
+                </ul>
+            </div>
+
+            <div class="space-y-7 hidden 768px:block">
+                <p>Kids'</p>
+                <ul class="space-y-5 text-[#757575] ">
+                    <li class="cursor-pointer hover:text-black">Infant & Toddler Shoes</li>
+                    <li class="cursor-pointer hover:text-black">Kid's Shoes</li>
+                    <li class="cursor-pointer hover:text-black">Kid's Jordan Shoes</li>
+                    <li class="cursor-pointer hover:text-black">Kid's Basketball Shoes</li>
+                </ul>
+            </div>
+
+            <div class="space-y-7 768px:hidden block">
+                <p>Icons</p>
+                <p>Shoes</p>
+                <p>Clothing</p>
+                <p>Kids'</p>
+            </div>
+        </div>
+
+
+
+        <!-- ----------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+        <footer class="bg-[#111111]">
+            <div class="1550px:min-w-[1425px] 200px:px-10 768px:mx-auto font-HelveticaAlternate mt-20 bg-[#111111] space-y-10">
+                <div class=" 768px:flex text-white space-y-11 768px:ml-9 justify-between grid grid-cols-1">
+                    <div class="768px:flex 768px:gap-36 grid grid-cols-1 ">
+                        <!-- Column-1 -->
+                        <div class="mt-11 space-y-4 tracking-tighter text-xs font-bold flex flex-col">
+                            <a href="">FIND A STORE</a>
+                            <a href="">BECOME A MEMBER</a>
+                            <a href="">STUDENT DISCOUNTS</a>
+                            <a href="">Send Us Feedback</a>
+                        </div>
+                        <!-- Column-2 -->
+                        <div class="mt-11 space-y-4 text-xs text-[#757575] 768px:flex flex-col justify-start grid grid-cols-1">
+                            <a href=""  class="tracking-tighter font-bold text-white">GET HELP</a>
+                            <a href="" class="hover:text-white">Order Status</a>
+                            <a href="" class="hover:text-white">Delivery</a>
+                            <a href="" class="hover:text-white">Returns</a>
+                            <a href="" class="hover:text-white">Payment Options</a>
+                            <a href="" class="hover:text-white">Contact Us On Nike.com Inquiries</a>
+                            <a href="" class="hover:text-white">Contact Us On All Other Inquiries</a>
+                        </div>
+                        <!-- Column-3 -->
+                        <div class="mt-11 space-y-4 text-xs text-[#757575] justify-start 768px:flex flex-col grid grid-cols-1">
+                            <a href="" class="tracking-tighter font-bold text-white">ABOUT NIKE</a>
+                            <a href="" class="hover:text-white">News</a>
+                            <a href="" class="hover:text-white">Careers</a>
+                            <a href="" class="hover:text-white">Investors</a>
+                            <a href="" class="hover:text-white">Sustainability</a>
+                        </div>
+                    </div>
+                    <!-- 4-Social Media icons -->
+                    <div class="flex mr-9 space-x-4">
+                        <!-- Twitter -->
+                        <button class="h-8 w-8 bg-[#757575] rounded-full flex items-center justify-center hover:bg-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter;"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path></svg>
+                        </button>
+                        <!-- FB -->
+                        <button class="h-8 w-8 bg-[#757575] rounded-full flex items-center justify-center hover:bg-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter;"><path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path></svg>
+                        </button>
+                        <!-- Youtube -->
+                        <button class="h-8 w-8 bg-[#757575] rounded-full flex items-center justify-center hover:bg-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter;"><path d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"></path></svg>      
+                        </button>
+                        <!-- Instagram -->
+                        <button class="h-8 w-8 bg-[#757575] rounded-full flex items-center justify-center hover:bg-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter;"><path d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"></path><circle cx="11.994" cy="11.979" r="3.003"></circle></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="text-white font-Helvetica 768px:ml-9 768px:flex justify-between items-center grid grid-cols-1">
+                    <div class="space-x-5 mb-4">
+                        <a href=""><ion-icon name="location-sharp"></ion-icon></a>
+                        <a href="" class="text-xs">India</a>
+                        <span class="text-xs text-[#757575]">© 2023 Nike, Inc. All Rights Reserved</span>
+                    </div>
+                    <div class="grid grid-cols-1">
+                        <p class="text-white">Crafted with❤️by Akash <a href="" class="underline underline-offset-2">meAkashbhardwaj@gmail.com</a></p>
+                    </div>
+                    <div class="text-[#757575] text-xs 768px:space-x-7 mr-9 mb-4 768px:flex grid grid-cols-1">
+                        <a href="" class="hover:text-white">Guides</a>
+                        <a href="" class="hover:text-white">Terms of Sale</a>
+                        <a href="" class="hover:text-white">Terms of Use</a>
+                        <a href="" class="hover:text-white">Nike Privacy Policy</a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+
+
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
